@@ -1,27 +1,27 @@
-#include "disciplinaInfo.h"
+#include "disciplinaEstatica.h"
 #include <iostream>
 #include <algorithm>
 #include <cctype>
 
-DisciplinaInfo::DisciplinaInfo(const std::string nomeDaCadeira, const std::string &nomeDoDocente)
+DisciplinaEstatica::DisciplinaEstatica(const std::string nomeDaCadeira, const std::string &nomeDoDocente)
 {
     NomeDaCadeira = nomeDaCadeira;
     NomeDoDocente = nomeDoDocente;
 }
 
 //Getters
-std::string DisciplinaInfo::getNomeDaCadeira() const
+std::string DisciplinaEstatica::getNomeDaCadeira() const
 {
     return NomeDaCadeira;
 }
-std::string DisciplinaInfo::getNomeDoDocente() const
+std::string DisciplinaEstatica::getNomeDoDocente() const
 {
     return NomeDoDocente;
 }
 
 //Setters
 
-void DisciplinaInfo::setNomeDaCadeira(std::string& nomeDaCadeira)
+void DisciplinaEstatica::setNomeDaCadeira(std::string& nomeDaCadeira)
 {
     // Validação: o nome não pode estar vazio ou conter apenas espaços/brancos
     bool nomeValido = !nomeDaCadeira.empty() &&
@@ -35,7 +35,7 @@ void DisciplinaInfo::setNomeDaCadeira(std::string& nomeDaCadeira)
     // Se for inválido, não muda o nome atual
 }
 
-void DisciplinaInfo::setNomeDoDocente(std::string& nomeDoDocente)
+void DisciplinaEstatica::setNomeDoDocente(std::string& nomeDoDocente)
 {
     NomeDoDocente = nomeDoDocente;
 }

@@ -1,14 +1,15 @@
-#ifndef DISCIPLINAINFO_H
-#define DISCIPLINAINFO_H
+#ifndef DISCIPLINAESTATICA_H
+#define DISCIPLINAESTATICA_H
 #include <string>
-class DisciplinaInfo
+class DisciplinaEstatica
 {
 private:
     std::string NomeDaCadeira;
     std::string NomeDoDocente;
 public:
-    DisciplinaInfo();
-    DisciplinaInfo(const std::string nomeDaCadeira, const std::string& nomeDoDocente);
+    DisciplinaEstatica();
+    DisciplinaEstatica(const std::string nomeDaCadeira, const std::string& nomeDoDocente);
+
 
     //Getters
     std::string getNomeDaCadeira() const;
@@ -19,4 +20,4 @@ public:
     void setNomeDoDocente(std::string& nomeDoDocente);
 };
 
-#endif // DISCIPLINAINFO_H
+#endif // DISCIPLINAESTATICA_H

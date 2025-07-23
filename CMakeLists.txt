@@ -6,10 +6,14 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable(Marcelo main.cpp
-    disciplinaAluno.h disciplinaAluno.cpp
+    disciplinaDinamica.h disciplinaDinamica.cpp
     aluno.h aluno.cpp
 
-    disciplinaInfo.h disciplinaInfo.cpp
+    disciplinaEstatica.h disciplinaEstatica.cpp
+    disciplinas.h disciplinas.cpp
+    GerenciadorDisciplina.h GerenciadorDisciplina.cpp
+    nota.h nota.cpp
+
 )
 
 include(GNUInstallDirs)

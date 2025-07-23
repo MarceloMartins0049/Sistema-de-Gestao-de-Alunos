@@ -1,8 +1,8 @@
-#ifndef DISCIPLINAALUNO_H
-#define DISCIPLINAALUNO_H
+#ifndef DISCIPLINADINAMICA_H
+#define DISCIPLINADINAMICA_H
 #include <string>
 
-class DisciplinaAluno
+class DisciplinaDinamica
 {
 private:
     double Teste1;
@@ -13,8 +13,9 @@ private:
     double Exame;
     std::string EstadoRegular;
 
+
 public:
-    DisciplinaAluno();
+    DisciplinaDinamica();
 
     // Getters
     std::string getEstadoRegular() const;
@@ -35,4 +36,4 @@ public:
     void setExame(double& exame);
 };
 
-#endif // DISCIPLINAALUNO_H
+#endif // DISCIPLINADINAMICA_H

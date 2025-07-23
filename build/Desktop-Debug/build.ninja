@@ -56,9 +56,9 @@ build CMakeFiles/Marcelo.dir/main.cpp.o: CXX_COMPILER__Marcelo_unscanned_Debug /
   OBJECT_DIR = CMakeFiles/Marcelo.dir
   OBJECT_FILE_DIR = CMakeFiles/Marcelo.dir
 
-build CMakeFiles/Marcelo.dir/disciplinaAluno.cpp.o: CXX_COMPILER__Marcelo_unscanned_Debug /home/marcelo/.ProjectsCPP/Marcelo/disciplinaAluno.cpp || cmake_object_order_depends_target_Marcelo
+build CMakeFiles/Marcelo.dir/disciplinaDinamica.cpp.o: CXX_COMPILER__Marcelo_unscanned_Debug /home/marcelo/.ProjectsCPP/Marcelo/disciplinaDinamica.cpp || cmake_object_order_depends_target_Marcelo
   CONFIG = Debug
-  DEP_FILE = CMakeFiles/Marcelo.dir/disciplinaAluno.cpp.o.d
+  DEP_FILE = CMakeFiles/Marcelo.dir/disciplinaDinamica.cpp.o.d
   FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/Marcelo.dir
   OBJECT_FILE_DIR = CMakeFiles/Marcelo.dir
@@ -70,9 +70,30 @@ build CMakeFiles/Marcelo.dir/aluno.cpp.o: CXX_COMPILER__Marcelo_unscanned_Debug 
   OBJECT_DIR = CMakeFiles/Marcelo.dir
   OBJECT_FILE_DIR = CMakeFiles/Marcelo.dir
 
-build CMakeFiles/Marcelo.dir/disciplinaInfo.cpp.o: CXX_COMPILER__Marcelo_unscanned_Debug /home/marcelo/.ProjectsCPP/Marcelo/disciplinaInfo.cpp || cmake_object_order_depends_target_Marcelo
+build CMakeFiles/Marcelo.dir/disciplinaEstatica.cpp.o: CXX_COMPILER__Marcelo_unscanned_Debug /home/marcelo/.ProjectsCPP/Marcelo/disciplinaEstatica.cpp || cmake_object_order_depends_target_Marcelo
   CONFIG = Debug
-  DEP_FILE = CMakeFiles/Marcelo.dir/disciplinaInfo.cpp.o.d
+  DEP_FILE = CMakeFiles/Marcelo.dir/disciplinaEstatica.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Marcelo.dir
+  OBJECT_FILE_DIR = CMakeFiles/Marcelo.dir
+
+build CMakeFiles/Marcelo.dir/disciplinas.cpp.o: CXX_COMPILER__Marcelo_unscanned_Debug /home/marcelo/.ProjectsCPP/Marcelo/disciplinas.cpp || cmake_object_order_depends_target_Marcelo
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles/Marcelo.dir/disciplinas.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Marcelo.dir
+  OBJECT_FILE_DIR = CMakeFiles/Marcelo.dir
+
+build CMakeFiles/Marcelo.dir/GerenciadorDisciplina.cpp.o: CXX_COMPILER__Marcelo_unscanned_Debug /home/marcelo/.ProjectsCPP/Marcelo/GerenciadorDisciplina.cpp || cmake_object_order_depends_target_Marcelo
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles/Marcelo.dir/GerenciadorDisciplina.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Marcelo.dir
+  OBJECT_FILE_DIR = CMakeFiles/Marcelo.dir
+
+build CMakeFiles/Marcelo.dir/nota.cpp.o: CXX_COMPILER__Marcelo_unscanned_Debug /home/marcelo/.ProjectsCPP/Marcelo/nota.cpp || cmake_object_order_depends_target_Marcelo
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles/Marcelo.dir/nota.cpp.o.d
   FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/Marcelo.dir
   OBJECT_FILE_DIR = CMakeFiles/Marcelo.dir
@@ -85,7 +106,7 @@ build CMakeFiles/Marcelo.dir/disciplinaInfo.cpp.o: CXX_COMPILER__Marcelo_unscann
 #############################################
 # Link the executable Marcelo
 
-build Marcelo: CXX_EXECUTABLE_LINKER__Marcelo_Debug CMakeFiles/Marcelo.dir/main.cpp.o CMakeFiles/Marcelo.dir/disciplinaAluno.cpp.o CMakeFiles/Marcelo.dir/aluno.cpp.o CMakeFiles/Marcelo.dir/disciplinaInfo.cpp.o
+build Marcelo: CXX_EXECUTABLE_LINKER__Marcelo_Debug CMakeFiles/Marcelo.dir/main.cpp.o CMakeFiles/Marcelo.dir/disciplinaDinamica.cpp.o CMakeFiles/Marcelo.dir/aluno.cpp.o CMakeFiles/Marcelo.dir/disciplinaEstatica.cpp.o CMakeFiles/Marcelo.dir/disciplinas.cpp.o CMakeFiles/Marcelo.dir/GerenciadorDisciplina.cpp.o CMakeFiles/Marcelo.dir/nota.cpp.o
   CONFIG = Debug
   DEP_FILE = CMakeFiles/Marcelo.dir/link.d
   FLAGS = -DQT_QML_DEBUG -g
